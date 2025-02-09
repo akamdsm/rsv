@@ -53,7 +53,3 @@ try:
 except Exception as e:
     print(f"Unexpected error: {e}")
     sys.exit(1)
-
-if '--silent' in sys.argv:
-            resolv = socket.gethostbyname(host)
-            print(resolv)
